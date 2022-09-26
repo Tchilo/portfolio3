@@ -77,11 +77,11 @@ subject= Hello there&body=Hello Taro">
         </div>
 
         <div className='flex justify-center py-12'>
-          <Link href='/#Home'>
+          <a href='/#Home'>
             <div className='rounded-full shadow-lg shadow-gray-400 cursor-pointer p-4'>
               <HiOutlineChevronDoubleUp size={30} className='text-[#5361e5]' />
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
