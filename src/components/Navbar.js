@@ -12,24 +12,26 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] mb-96 bg-[#ecf0f3]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+        <Link to='/'>
         <h2>TC</h2>
+        </Link>
         <div>
           <ul className='hidden md:flex '>
-            <Link to='/#Home'>
+            <a href='/#Home'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-            </Link>
-            <Link to='/#About'>
+            </a>
+            <a href='/#About'>
               <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-            </Link>
-            <Link to='/#Skills'>
+            </a>
+            <a href='/#Skills'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-            </Link>
-            <Link to='/#Projects'>
+            </a>
+            <a href='/#Projects'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
-            </Link>
-            <Link to='/#Contact'>
+            </a>
+            <a href='/#Contact'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-            </Link>
+            </a>
           </ul>
           <div className='md:hidden'>
             < AiOutlineMenu size={25} onClick={handleClick} />

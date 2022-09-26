@@ -17,7 +17,7 @@ const Contact = () => {
         <div className='grid lg:grid-cols-5 gap-8'>
 
           <div className='col-span-3 lg:col-span-2 shadow-xl shadow-gray-400 p-4 rounded-xl h-full '>
-            <image src={contact} className='rounded-xl' width={400} height={300} alt='' />
+            <img src={contact} className='rounded-xl' width={400} height={300} alt='' />
             <h3 className='py-4'>Taro Chilongoshi</h3>
             <p>Front-End Developer</p>
             <p>I am available for freelance or full-time positions contact me and let&apos;s talk</p>
@@ -54,7 +54,7 @@ const Contact = () => {
             <div className='flex flex-col items-center'>
               <div>
 
-            <image src={newMessage} className='rounded-xl' width={400} height={300} alt='' />
+            <img src={newMessage} className='rounded-xl' width={400} height={300} alt='' />
               </div>
 
               <div className='grid gap-4 w-full lg:w-[50%] py-2 '>
