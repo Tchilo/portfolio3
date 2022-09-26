@@ -1,11 +1,19 @@
-function App() {
-  return (
-    <div className="bg-green-400 h-screen w-full">
- <h1 className="text-3xl font-bold text-center underline">
-      React Tailwind template
-    </h1>
-    </div>
-  );
-}
+import Navbar from './components/Navbar'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import ProjectView from './pages/ProjectView'
 
-export default App;
+export default function App() {
+  return (
+    <div >
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route index element={
+            <Home />} />
+          <Route path='projects/:id' element={ <ProjectView/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  )
+}
