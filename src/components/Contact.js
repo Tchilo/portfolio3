@@ -26,25 +26,25 @@ const Contact = () => {
               <p className='uppercase text-blue-500 tracking-widest'>Let&apos;s connect</p>
               <ul className='flex items-center justify-between mt-4 md:w-[80%] gap-5 py-3 lg:w-[50%]'>
                 <li className='rounded-full shadow-lg shadow-gray-400 cursor-pointer p-2'>
-                  <Link href='https://www.linkedin.com/in/taro-chilongoshi/'>
+                  <a href='https://www.linkedin.com/in/taro-chilongoshi/' target='_blank'>
                     <a>
                       <FaLinkedinIn size={25} />
                     </a>
-                  </Link>
+                  </a>
                 </li>
                 <li className='rounded-full shadow-lg shadow-gray-400 cursor-pointer p-2'>
-                  <Link href='https://twitter.com/tchiloross'>
+                  <a href='https://twitter.com/tchiloross' target='_blank'>
                     <a>
                       <AiOutlineTwitter size={25} />
                     </a>
-                  </Link>
+                  </a>
                 </li>
                 <li className='rounded-full shadow-lg shadow-gray-400 cursor-pointer p-2'>
-                  <Link href='mailto:tchiloross@gmail.com'>
+                  <a href='mailto:tchiloross@gmail.com' target='_blank'>
                     <a>
                       <AiOutlineMail size={25} />
                     </a>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
